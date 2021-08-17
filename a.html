@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+<body>
+<script>
+for(var a=1;a<2;a++)
+{
+var str = "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん";
+
+var strLen = str.length;
+var wa = "";
+for (var i = 0; i < 3; i++) {
+  wa += str[Math.floor(Math.random() * strLen)];
+}
+console.log(wa);
+
+document.write(wa+"<BR>"+"<BR>")
+}
+</script>
+</body>
+</html>
